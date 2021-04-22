@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   AppCenter-Config.plist
+   MyNewBareApp
+
+   Created by Nattapat Siripin on 22/4/2564 BE.
+   Copyright (c) 2564 BE ___ORGANIZATIONNAME___. All rights reserved.
+-->
+<plist version="1.0">
+    <dict>
+    <key>AppSecret</key>
+    <string>ffe4ff81-d83a-419e-98a6-f67edc6dad39</string>
+    </dict>
+</plist>

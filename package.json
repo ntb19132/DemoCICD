@@ -4,9 +4,13 @@
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "web": "expo start --web",
-    "start": "react-native start"
+    "start": "react-native start",
+    "expo": "expo start"
   },
   "dependencies": {
+    "appcenter": "4.1.0",
+    "appcenter-analytics": "4.1.0",
+    "appcenter-crashes": "4.1.0",
     "expo": "~41.0.1",
     "expo-splash-screen": "~0.10.2",
     "expo-status-bar": "~1.0.4",

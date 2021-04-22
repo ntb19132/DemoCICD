@@ -5,6 +5,10 @@
 #import <React/RCTRootView.h>
 #import <React/RCTLinkingManager.h>
 
+#import <AppCenterReactNative.h>
+#import <AppCenterReactNativeAnalytics.h>
+#import <AppCenterReactNativeCrashes.h>
+
 #import <UMCore/UMModuleRegistry.h>
 #import <UMReactNativeAdapter/UMNativeModulesProxy.h>
 #import <UMReactNativeAdapter/UMModuleRegistryAdapter.h>
@@ -57,7 +61,9 @@ static void InitializeFlipper(UIApplication *application) {
   #endif
 
   [super application:application didFinishLaunchingWithOptions:launchOptions];
-
+  [AppCenterReactNative register];
+  [AppCenterReactNativeAnalytics registerWithInitiallyEnabled:true];
+  [AppCenterReactNativeCrashes registerWithAutomaticProcessing];
   return YES;
 }
 
